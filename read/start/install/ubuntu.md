@@ -24,7 +24,7 @@ sudo apt-get install fzf
 執行下面指令，安裝「[dmenu](https://packages.ubuntu.com/jammy/dmenu)」
 
 ``` sh
-ssudo apt-get install dmenu
+sudo apt-get install dmenu
 ```
 
 * [dmenu](https://packages.ubuntu.com/jammy/dmenu)
