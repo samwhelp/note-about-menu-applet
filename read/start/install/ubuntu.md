@@ -9,3 +9,42 @@ grand_parent: 入門
 
 # Ubuntu
 
+
+## fzf
+
+執行下面指令，安裝「[fzf](https://packages.ubuntu.com/jammy/fzf)」
+
+``` sh
+sudo apt-get install fzf
+```
+
+
+## demnu
+
+執行下面指令，安裝「[dmenu](https://packages.ubuntu.com/jammy/dmenu)」
+
+``` sh
+ssudo apt-get install dmenu
+```
+
+* [dmenu](https://packages.ubuntu.com/jammy/dmenu)
+* [suckless-tools](https://packages.ubuntu.com/jammy/suckless-tools)
+
+
+## rofi
+
+執行下面指令，安裝「[rofi](https://packages.ubuntu.com/jammy/rofi)」
+
+``` sh
+sudo apt-get install rofi
+```
+
+
+## jgmenu
+
+執行下面指令，安裝「[jgmenu](https://packages.ubuntu.com/jammy/jgmenu)」
+
+
+``` sh
+sudo apt-get install jgmenu
+```
