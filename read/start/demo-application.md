@@ -1,7 +1,7 @@
 ---
 title: Demo Application
 nav_order: 2040
-has_children: true
+has_children: false
 parent: 入門
 ---
 
