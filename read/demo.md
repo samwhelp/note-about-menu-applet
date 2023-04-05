@@ -11,3 +11,10 @@ has_children: false
 
 * [Menu Applet](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start)
 
+
+| Agent |
+| --- |
+| [fzf](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/fzf) |
+| [dmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu) |
+| [rofi](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/rofi) |
+| [jgmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/jgmenu) |
