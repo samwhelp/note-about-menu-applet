@@ -11,7 +11,7 @@ parent: 入門
 
 | Modularize |
 | --- |
-| [fzf](modularize/fzf) |
-| [dmenu](modularize/dmenu) |
-| [rofi](modularize/rofi) |
-| [jgmenu](modularize/jgmenu) |
+| [fzf](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/fzf.html) |
+| [dmenu](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/dmenu.html) |
+| [rofi](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/rofi.html) |
+| [jgmenu](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/jgmenu.html) |
