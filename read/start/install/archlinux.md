@@ -25,7 +25,7 @@ sudo pacman -Sy --needed fzf
 執行下面指令，安裝「[dmenu](https://archlinux.org/packages/community/x86_64/dmenu/)」
 
 ``` sh
-ssudo pacman -Sy --needed dmenu
+sudo pacman -Sy --needed dmenu
 ```
 
 

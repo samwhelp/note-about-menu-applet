@@ -1,7 +1,7 @@
 ---
 title: Menu Content
 nav_order: 2000
-has_children: true
+has_children: false
 parent: 入門
 ---
 
