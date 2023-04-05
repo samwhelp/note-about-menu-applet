@@ -20,7 +20,7 @@ echo -e "aaa\nbbb\nccc" | fzf
 * [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/fzf/start.sh)
 
 
-## demnu
+## dmenu
 
 執行下面指令
 
@@ -28,7 +28,7 @@ echo -e "aaa\nbbb\nccc" | fzf
 echo -e "aaa\nbbb\nccc" | dmenu -b -l 10
 ```
 
-* [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/demnu/start.sh)
+* [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu/start.sh)
 
 
 ## rofi

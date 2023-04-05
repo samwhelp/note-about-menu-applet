@@ -20,7 +20,7 @@ sudo pacman -Sy --needed fzf
 ```
 
 
-## demnu
+## dmenu
 
 執行下面指令，安裝「[dmenu](https://archlinux.org/packages/community/x86_64/dmenu/)」
 

@@ -22,7 +22,7 @@ echo "Selected: ${selected}"
 * [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/fzf/selected.sh)
 
 
-## demnu
+## dmenu
 
 執行下面指令
 
@@ -32,7 +32,7 @@ selected=$(echo -e "aaa\nbbb\nccc" | dmenu -b -l 10)
 echo "Selected: ${selected}"
 ```
 
-* [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/demnu/selected.sh)
+* [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu/selected.sh)
 
 
 ## rofi

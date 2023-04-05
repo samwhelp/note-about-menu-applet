@@ -19,7 +19,7 @@ sudo apt-get install fzf
 ```
 
 
-## demnu
+## dmenu
 
 執行下面指令，安裝「[dmenu](https://packages.ubuntu.com/jammy/dmenu)」
 
