@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 
 
+##
+## https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+##
+
+THE_DEFAULT_DE="${THE_DEFAULT_DE:=mate}"
+
+main_desktop_environment () {
+	echo "${THE_DEFAULT_DE}"
+}
+
 menu_list () {
 
 	#ls -1 /usr/share/backgrounds/*.{png,jpg,jpeg}
@@ -50,57 +60,79 @@ wallpaper_ctrl_set () {
 
 	local agent
 
-	agent="feh"
+	#agent="feh"
 	#agent="gnome"
 	#agent="cinnamon"
 	#agent="mate"
 	#agent="xfce"
 
+	agent=$(main_desktop_environment)
 
-	local delegate="wallpaper_ctrl_set_by_${agent}"
+	local delegate="wallpaper_ctrl_set_for_${agent}"
 
 	"${delegate}" "${1}"
 
 }
 
-wallpaper_ctrl_set_by_feh () {
+wallpaper_ctrl_set_for_feh () {
 
 	##
 	## https://wiki.archlinux.org/title/feh
 	##
 
 	local wallpaper_file_path="${1}"
+
+	echo
+	echo "feh --bg-scale \"${wallpaper_file_path}\""
 	feh --bg-scale "${wallpaper_file_path}"
 
-	return 0
-}
 
-
-
-wallpaper_ctrl_set_by_gnome () {
-
-	echo "TODO: wallpaper_ctrl_set_by_gnome"
+	echo
 
 	return 0
 }
 
-wallpaper_ctrl_set_by_cinnamon () {
 
-	echo "TODO: wallpaper_ctrl_set_by_cinnamon"
 
-	return 0
-}
+wallpaper_ctrl_set_for_gnome () {
 
-wallpaper_ctrl_set_by_mate () {
-
-	echo "TODO: wallpaper_ctrl_set_by_mate"
+	echo "TODO: wallpaper_ctrl_set_for_gnome"
 
 	return 0
 }
 
-wallpaper_ctrl_set_by_xfce () {
+wallpaper_ctrl_set_for_cinnamon () {
 
-	echo "TODO: wallpaper_ctrl_set_by_xfce"
+	echo "TODO: wallpaper_ctrl_set_for_cinnamon"
+
+	return 0
+}
+
+wallpaper_ctrl_set_for_mate () {
+
+	echo
+	echo "## Config: wallpaper_ctrl_set_for_mate"
+	echo
+
+	local wallpaper_file_path="${1}"
+
+	echo
+	echo "gsettings set org.mate.background picture-filename \"${wallpaper_file_path}\""
+	gsettings set org.mate.background picture-filename "${wallpaper_file_path}"
+
+	echo
+	echo "gsettings set org.mate.background picture-options \"zoom\""
+	gsettings set org.mate.background picture-options "zoom"
+
+
+	echo
+
+	return 0
+}
+
+wallpaper_ctrl_set_for_xfce () {
+
+	echo "TODO: wallpaper_ctrl_set_for_xfce"
 
 	return 0
 }
