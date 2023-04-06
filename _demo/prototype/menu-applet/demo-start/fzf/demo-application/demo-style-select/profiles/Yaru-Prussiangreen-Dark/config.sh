@@ -1,0 +1,6 @@
+THE_GHOME_SHELL_THEME_NAME="Yaru-prussiangreen-dark"
+THE_WM_THEME_NAME="Yaru-dark"
+THE_GTK_THEME_NAME="Yaru-prussiangreen-dark"
+THE_ICON_THEME_NAME="Yaru-prussiangreen-dark"
+THE_CURSOR_THEME_NAME="Breeze"
+THE_CURSOR_SIZE="24"
