@@ -37,3 +37,14 @@ parent: 入門
 | [dmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu/demo-application/demo-wallpaper-select) | [wallpaper-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu/demo-application/demo-wallpaper-select/wallpaper-select.sh) |
 | [rofi](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/rofi/demo-application/demo-wallpaper-select) | [wallpaper-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/rofi/demo-application/demo-wallpaper-select/wallpaper-select.sh) |
 | [jgmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/jgmenu/demo-application/demo-wallpaper-select) | [wallpaper-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/jgmenu/demo-application/demo-wallpaper-select/wallpaper-select.sh) |
+
+
+## demo-im-select
+
+| Agent |
+| --- | --- |
+| [fzf](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/fzf/demo-application/demo-im-select) | [im-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/fzf/demo-application/demo-im-select/im-select.sh) |
+| [dmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu/demo-application/demo-im-select) | [im-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu/demo-application/demo-im-select/im-select.sh) |
+| [rofi](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/rofi/demo-application/demo-im-select) | [im-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/rofi/demo-application/demo-im-select/im-select.sh) |
+| [jgmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/jgmenu/demo-application/demo-im-select) | [im-select.sh](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/jgmenu/demo-application/demo-im-select/im-select.sh) |
+
