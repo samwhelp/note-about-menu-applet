@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 
 
+##
+## https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
+##
+
+THE_DEFAULT_DE="${THE_DEFAULT_DE:=mate}"
+
+main_desktop_environment () {
+	echo "${THE_DEFAULT_DE}"
+}
+
 menu_list () {
 	ls -1 ./profiles
 }
@@ -56,12 +66,18 @@ style_ctrl_set () {
 
 	local agent
 
-
 	#agent="gnome"
 	#agent="cinnamon"
-	agent="mate"
+	#agent="mate"
 	#agent="xfce"
 
+	agent=$(main_desktop_environment)
+
+	echo
+	echo "##"
+	echo "## main_desktop_environment: ${agent}"
+	echo "##"
+	echo
 
 	local delegate="style_ctrl_set_for_${agent}"
 
