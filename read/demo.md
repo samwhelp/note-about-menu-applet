@@ -8,15 +8,19 @@ has_children: false
 # 範例
 
 
+## Menu Applet
+
+* [Menu Applet](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet)
+
+
 ## Demo Application
 
 * [Demo Application](https://samwhelp.github.io/note-about-menu-applet/read/start/demo-application.html)
 
 
-## Menu Applet
+## Demo Start
 
-* [Menu Applet](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet)
-
+* [Demo Start](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start)
 
 | Menu Factory |
 | --- |
