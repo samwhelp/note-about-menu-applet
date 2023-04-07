@@ -8,12 +8,17 @@ has_children: false
 # 範例
 
 
+## Demo Application
+
+* [Demo Application](https://samwhelp.github.io/note-about-menu-applet/read/start/demo-application.html)
+
+
 ## Menu Applet
 
-* [Menu Applet](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start)
+* [Menu Applet](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet)
 
 
-| Agent |
+| Menu Factory |
 | --- |
 | [fzf](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/fzf) |
 | [dmenu](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-start/dmenu) |
