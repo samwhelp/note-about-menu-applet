@@ -3,6 +3,11 @@
 # demo-im-select
 
 
+## Link
+
+* note-about-fedora / [fcitx5-chewing](https://samwhelp.github.io/note-about-fedora/read/im/fcitx5/fcitx5-chewing.html)
+
+
 ## Usage
 
 
