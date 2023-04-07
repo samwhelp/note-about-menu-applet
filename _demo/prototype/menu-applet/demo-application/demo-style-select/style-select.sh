@@ -94,7 +94,7 @@ demo_applet () {
 	echo
 
 
-	style_ctrl_set ${THE_WM_THEME_NAME}" ${THE_GTK_THEME_NAME}" ${THE_ICON_THEME_NAME}" ${THE_CURSOR_THEME_NAME}" ${THE_CURSOR_SIZE}" ${THE_GHOME_SHELL_THEME_NAME}"
+	style_ctrl_set "${THE_WM_THEME_NAME}" "${THE_GTK_THEME_NAME}" "${THE_ICON_THEME_NAME}" "${THE_CURSOR_THEME_NAME}" "${THE_CURSOR_SIZE}" "${THE_GHOME_SHELL_THEME_NAME}"
 
 }
 
@@ -120,7 +120,7 @@ style_ctrl_set () {
 
 	local delegate="style_ctrl_set_for_${agent}"
 
-	"${delegate}" $@
+	"${delegate}" "$@"
 
 }
 
