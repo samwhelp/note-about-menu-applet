@@ -8,6 +8,19 @@ parent: 入門
 
 # Demo Application
 
+
+## Demo
+
+| [Demo](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application) |
+| --- |
+| [demo-source](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-source) |
+| [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
+| [demo-wallpaper-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select) |
+| [demo-im-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select) |
+
+
+## Demo / Part
+
 * [demo-source](#demo-source)
 * [demo-style-select](#demo-style-select)
 * [demo-wallpaper-select](#demo-wallpaper-select)
