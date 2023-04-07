@@ -14,7 +14,7 @@ grand_parent: 入門
 執行下面指令
 
 ``` sh
-menu_list () {
+menu_content () {
 	echo -e "aaa,val_aaa\nbbb,val_bbb\nccc,val_ccc"
 }
 
@@ -23,7 +23,7 @@ menu_factory () {
 }
 
 menu_start () {
-	 menu_list | menu_factory
+	 menu_content | menu_factory
 }
 
 selected="$(menu_start)"

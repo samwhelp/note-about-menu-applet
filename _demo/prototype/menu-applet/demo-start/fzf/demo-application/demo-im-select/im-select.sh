@@ -11,7 +11,7 @@ main_distro () {
 	echo "${THE_DEFAULT_DISTRO}"
 }
 
-menu_list () {
+menu_content () {
 
 cat << EOF
 fcitx
@@ -30,7 +30,7 @@ menu_factory () {
 }
 
 menu_start () {
-	 menu_list | menu_factory
+	 menu_content | menu_factory
 }
 
 demo_applet () {

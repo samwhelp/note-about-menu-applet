@@ -14,7 +14,7 @@ main_menu_factory () {
 
 
 
-menu_list () {
+menu_content () {
 	ls -1 ./profiles
 }
 
@@ -50,7 +50,7 @@ menu_factory_by_jgmenu () {
 }
 
 menu_start () {
-	 menu_list | menu_factory
+	 menu_content | menu_factory
 }
 
 demo_applet () {

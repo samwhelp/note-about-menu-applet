@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-menu_list () {
+menu_content () {
 	echo -e "aaa\nbbb\nccc"
 }
 
@@ -10,7 +10,7 @@ menu_factory () {
 }
 
 menu_start () {
-	 menu_list | menu_factory
+	 menu_content | menu_factory
 }
 
 selected="$(menu_start)"

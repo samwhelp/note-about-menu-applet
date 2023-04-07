@@ -11,7 +11,7 @@ main_desktop_environment () {
 	echo "${THE_DEFAULT_DE}"
 }
 
-menu_list () {
+menu_content () {
 
 	#ls -1 /usr/share/backgrounds/*.{png,jpg,jpeg}
 
@@ -24,7 +24,7 @@ menu_factory () {
 }
 
 menu_start () {
-	 menu_list | menu_factory
+	 menu_content | menu_factory
 }
 
 demo_applet () {

@@ -20,7 +20,7 @@ main_menu_factory () {
 
 
 
-menu_list () {
+menu_content () {
 
 cat << EOF
 fcitx
@@ -66,7 +66,7 @@ menu_factory_by_jgmenu () {
 }
 
 menu_start () {
-	 menu_list | menu_factory
+	 menu_content | menu_factory
 }
 
 demo_applet () {
