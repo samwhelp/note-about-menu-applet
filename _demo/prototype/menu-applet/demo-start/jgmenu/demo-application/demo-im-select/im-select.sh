@@ -76,9 +76,6 @@ im_ctrl_set_for_ubuntu () {
 	echo "## Config: im_ctrl_set_for_ubuntu"
 	echo
 
-	##
-	## https://wiki.archlinux.org/title/feh
-	##
 
 	local input_method_framework="${1}"
 
@@ -97,8 +94,6 @@ im_ctrl_set_for_ubuntu () {
 	return 0
 }
 
-
-
 im_ctrl_set_for_arch () {
 
 	echo
@@ -115,6 +110,32 @@ im_ctrl_set_for_arch () {
 
 	return 0
 }
+
+im_ctrl_set_for_fedora () {
+
+	echo
+	echo "## Config: im_ctrl_set_for_fedora"
+	echo
+
+
+	local input_method_framework="${1}"
+
+	echo
+	echo "imsettings-switch \"${input_method_framework}\""
+	imsettings-switch "${input_method_framework}"
+
+
+	echo
+	echo "file \"${HOME}/.config/imsettings/xinputrc\""
+	echo
+	file "${HOME}/.config/imsettings/xinputrc"
+
+	echo
+
+	return 0
+}
+
+
 
 
 __main__ () {
