@@ -83,7 +83,7 @@ tint2_ctrl_start () {
 
 	local delegate="${1}"
 
-	"${delegate}" "$@"
+	"${delegate}" "${@}"
 
 }
 
