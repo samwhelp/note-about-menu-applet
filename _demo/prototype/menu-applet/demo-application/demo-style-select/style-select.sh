@@ -120,7 +120,7 @@ style_ctrl_set () {
 
 	local delegate="style_ctrl_set_for_${agent}"
 
-	"${delegate}" "$@"
+	"${delegate}" "${@}"
 
 }
 
