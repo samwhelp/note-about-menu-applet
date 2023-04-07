@@ -13,6 +13,6 @@ menu_start () {
 	 menu_list | menu_factory
 }
 
-selected=$(menu_start)
+selected="$(menu_start)"
 
 echo "Selected: ${selected}"

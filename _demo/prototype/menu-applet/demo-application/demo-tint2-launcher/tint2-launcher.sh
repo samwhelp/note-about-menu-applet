@@ -55,7 +55,7 @@ menu_start () {
 
 demo_applet () {
 
-	local selected=$(menu_start)
+	local selected="$(menu_start)"
 	
 	if [ -z "${selected}" ]; then
 		echo "## Not selected ##"
