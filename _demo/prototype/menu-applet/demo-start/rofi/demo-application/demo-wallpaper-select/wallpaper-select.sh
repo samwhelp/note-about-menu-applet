@@ -66,7 +66,7 @@ wallpaper_ctrl_set () {
 	#agent="mate"
 	#agent="xfce"
 
-	agent=$(main_desktop_environment)
+	agent="$(main_desktop_environment)"
 
 	local delegate="wallpaper_ctrl_set_for_${agent}"
 

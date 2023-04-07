@@ -36,7 +36,7 @@ menu_factory () {
 	#agent="rofi"
 	#agent="jgmenu"
 
-	agent=$(main_menu_factory)
+	agent="$(main_menu_factory)"
 
 	local delegate="menu_factory_by_${agent}"
 
@@ -104,7 +104,7 @@ wallpaper_ctrl_set () {
 	#agent="mate"
 	#agent="xfce"
 
-	agent=$(main_desktop_environment)
+	agent="$(main_desktop_environment)"
 
 	local delegate="wallpaper_ctrl_set_for_${agent}"
 
