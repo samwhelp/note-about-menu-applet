@@ -14,6 +14,7 @@ has_children: false
 * note-about-manjaro / [style-switch-xfce](https://github.com/samwhelp/note-about-manjaro/tree/gh-pages/_demo/project/style-xfce/style-switch)
 * play-ubuntu-20.04-plan / [style-switch-xfce](https://github.com/samwhelp/play-ubuntu-20.04-plan/tree/master/project/style-xfce/style-switch)
 * play-ubuntu-18.04-plan / [style-switch-xfce](https://github.com/samwhelp/play-ubuntu-18.04-plan/tree/master/project/style-tool/xfce/style-switch)
+* Menu Applet / [Demo Application](https://samwhelp.github.io/note-about-menu-applet/read/start/demo-application.html)
 
 
 ## fzf
