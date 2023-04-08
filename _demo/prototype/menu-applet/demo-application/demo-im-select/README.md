@@ -6,6 +6,16 @@
 ## Link
 
 * note-about-fedora / [fcitx5-chewing](https://samwhelp.github.io/note-about-fedora/read/im/fcitx5/fcitx5-chewing.html)
+* Debian / $ man [im-config](https://manpages.debian.org/unstable/im-config/im-config.8.en.html)
+* Ubuntu / $ man [im-config](https://manpages.ubuntu.com/manpages/focal/man8/im-config.8.html)
+* Fedora / $ man [imsettings-switch](https://www.mankier.com/1/imsettings-switch)
+
+
+## Wiki
+
+* Debian Wiki / [ChineseInputMethod](https://wiki.debian.org/ChineseInputMethod)
+* Debian Wiki / [InputMethodBuster](https://wiki.debian.org/InputMethodBuster)
+* Fedora Wiki / I18N / [InputMethods](https://fedoraproject.org/wiki/I18N/InputMethods)
 
 
 ## Usage
