@@ -205,7 +205,41 @@ wallpaper_ctrl_set_for_mate () {
 
 wallpaper_ctrl_set_for_xfce () {
 
-	echo "TODO: wallpaper_ctrl_set_for_xfce"
+	echo
+	echo "## Config: wallpaper_ctrl_set_for_xfce"
+	echo
+
+	local wallpaper_file_path="${1}"
+	local bg_option=5
+	local screen=`xrandr --listactivemonitors | awk -F ' ' 'END {print $1}' | tr -d \:`
+	local monitor=`xrandr --listactivemonitors | awk -F ' ' 'END {print $2}' | tr -d \*+`
+
+
+	echo
+	echo "xfconf-query --channel xfce4-desktop --property /backdrop/screen${screen}/monitor${monitor}/workspace0/last-image --set ${wallpaper_file_path} --type 'string' --create"
+	xfconf-query --channel xfce4-desktop --property "/backdrop/screen${screen}/monitor${monitor}/workspace0/last-image" --set "${wallpaper_file_path}" --type 'string' --create
+
+	echo
+	echo "xfconf-query --channel xfce4-desktop --property /backdrop/screen${screen}/monitor${monitor}/workspace0/image-style --set $bg_option --type 'int' --create"
+	xfconf-query --channel xfce4-desktop --property "/backdrop/screen${screen}/monitor${monitor}/workspace0/image-style" --set "$bg_option" --type 'int' --create
+
+	echo
+	echo "xfconf-query --channel xfce4-desktop --property /backdrop/single-workspace-mode --set 'true' --type 'bool' --create"
+	xfconf-query --channel xfce4-desktop --property "/backdrop/single-workspace-mode" --set 'true' --type 'bool' --create
+
+
+	##
+	## ## image-style
+	## 0: None
+	## 1: Centered
+	## 2: Tiled
+	## 3: Stretched
+	## 4: Scaled
+	## 5: Zoomed
+	##
+	## > None for Color
+	##
+
 
 	return 0
 }
