@@ -90,6 +90,15 @@ THE_DEFAULT_DE=pcmanfm ./wallpaper-select.sh
 ```
 
 
+### pcmanfm-qt
+
+run
+
+``` sh
+THE_DEFAULT_DE=pcmanfm-qt ./wallpaper-select.sh
+```
+
+
 ## Usage / Menu Factory
 
 

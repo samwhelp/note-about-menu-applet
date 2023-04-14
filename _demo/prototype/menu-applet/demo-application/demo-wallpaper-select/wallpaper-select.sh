@@ -239,6 +239,34 @@ wallpaper_ctrl_set_for_pcmanfm () {
 	return 0
 }
 
+wallpaper_ctrl_set_for_pcmanfm-qt () {
+
+	echo
+	echo "## Config: wallpaper_ctrl_set_for_pcmanfm-qt"
+	echo
+
+
+	##
+	## pcmanfm-qt --desktop &
+	##
+
+
+	local wallpaper_file_path="${1}"
+
+	echo
+	echo "pcmanfm-qt --set-wallpaper \"${wallpaper_file_path}\""
+	pcmanfm --set-wallpaper "${wallpaper_file_path}"
+
+
+	echo
+	echo "pcmanfm-qt --wallpaper-mode \"fit\""
+	pcmanfm --wallpaper-mode "fit"
+
+
+	echo
+
+	return 0
+}
 
 
 
