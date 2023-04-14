@@ -289,12 +289,12 @@ wallpaper_ctrl_set_for_pcmanfm-qt () {
 
 	echo
 	echo "pcmanfm-qt --set-wallpaper \"${wallpaper_file_path}\""
-	pcmanfm --set-wallpaper "${wallpaper_file_path}"
+	pcmanfm-qt --set-wallpaper "${wallpaper_file_path}"
 
 
 	echo
 	echo "pcmanfm-qt --wallpaper-mode \"fit\""
-	pcmanfm --wallpaper-mode "fit"
+	pcmanfm-qt --wallpaper-mode "fit"
 
 
 	echo
