@@ -81,6 +81,15 @@ run
 THE_DEFAULT_DE=feh ./wallpaper-select.sh
 ```
 
+### pcmanfm
+
+run
+
+``` sh
+THE_DEFAULT_DE=pcmanfm ./wallpaper-select.sh
+```
+
+
 ## Usage / Menu Factory
 
 
