@@ -11,3 +11,4 @@
 | [demo-wallpaper-select](demo-wallpaper-select) |
 | [demo-im-select](demo-im-select) |
 | [demo-tint2-launcher](demo-tint2-launcher) |
+| [demo-preferred-terminal](demo-preferred-terminal) |
