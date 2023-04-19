@@ -33,7 +33,7 @@ parent: 範例
 
 ### gnome-shell
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L127-L132)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L118-L145)
 
 ``` sh
 gsettings set org.gnome.desktop.default-applications.terminal exec "sakura"
@@ -42,7 +42,7 @@ gsettings set org.gnome.desktop.default-applications.terminal exec "sakura"
 
 ### cinnamon
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L134-L139)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L147-L174)
 
 ``` sh
 gsettings set org.cinnamon.desktop.default-applications.terminal exec "sakura"
@@ -51,7 +51,7 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec "sakura"
 
 ### mate
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L132-L150)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L176-L203)
 
 ``` sh
 gsettings set org.mate.applications-terminal exec "sakura"
@@ -60,7 +60,7 @@ gsettings set org.mate.applications-terminal exec "sakura"
 
 ### xfce
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L190-L195)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal/preferred-terminal.sh#L205-L210)
 
 ``` sh
 ## TODO
