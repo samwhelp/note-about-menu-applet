@@ -31,7 +31,7 @@ parent: 範例
 
 ### gnome-shell
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L137-L158)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L137-L158)
 
 ``` sh
 gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/default.jpg"
@@ -44,7 +44,7 @@ gsettings set org.gnome.desktop.screensaver picture-uri "file:///usr/share/backg
 
 ### cinnamon
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L160-L182)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L160-L182)
 
 ``` sh
 gsettings set org.cinnamon.desktop.background picture-uri "file:///usr/share/backgrounds/default.jpg"
@@ -55,7 +55,7 @@ gsettings set org.cinnamon.desktop.background picture-options "zoom"
 
 ### mate
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L184-L204)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L184-L204)
 
 ``` sh
 gsettings set org.mate.background picture-filename "/usr/share/backgrounds/default.jpg"
@@ -66,7 +66,7 @@ gsettings set org.mate.background picture-options "zoom"
 
 ### xfce
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L206-L245)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L206-L245)
 
 ``` sh
 local screen=`xrandr --listactivemonitors | awk -F ' ' 'END {print $1}' | tr -d \:`
@@ -85,7 +85,7 @@ xfconf-query --channel xfce4-desktop --property "/backdrop/single-workspace-mode
 
 * $ man [feh](https://manpages.ubuntu.com/manpages/jammy/en/man1/feh.1.html)
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L115-L135)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L115-L135)
 
 ``` sh
 feh --bg-scale "/usr/share/backgrounds/default.jpg"
@@ -96,7 +96,7 @@ feh --bg-scale "/usr/share/backgrounds/default.jpg"
 
 * $ man [pcmanfm](https://manpages.ubuntu.com/manpages/jammy/en/man1/pcmanfm.1.html)
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L247-L274)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L247-L274)
 
 ``` sh
 pcmanfm --set-wallpaper "/usr/share/backgrounds/default.jpg"
@@ -109,7 +109,7 @@ pcmanfm --wallpaper-mode "fit"
 
 * $ man [pcmanfm-qt](https://manpages.ubuntu.com/manpages/jammy/en/man1/pcmanfm-qt.1.html)
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L276-L303)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L276-L303)
 
 ``` sh
 pcmanfm-qt --set-wallpaper "/usr/share/backgrounds/default.jpg"

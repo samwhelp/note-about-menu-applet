@@ -16,7 +16,7 @@ parent: 範例
 
 ## 建構基礎
 
-> 設定桌面圖片
+> 設定外觀(佈景主題)
 
 | 環境 |
 | --- |
@@ -28,7 +28,7 @@ parent: 範例
 
 ### gnome-shell
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L127-L132)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L127-L132)
 
 ``` sh
 ## TODO
@@ -37,7 +37,7 @@ parent: 範例
 
 ### cinnamon
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L134-L139)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L134-L139)
 
 ``` sh
 ## TODO
@@ -48,7 +48,7 @@ parent: 範例
 
 > 設定檔 / [Gruvbox](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Gruvbox/config.sh)
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L141-L188)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L141-L188)
 
 ``` sh
 gsettings set org.mate.Marco.general theme "Gruvbox"
@@ -65,7 +65,7 @@ gsettings set org.mate.peripherals-mouse cursor-size "24"
 
 ### xfce
 
-> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L190-L195)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L190-L195)
 
 ``` sh
 ## TODO
