@@ -5,7 +5,7 @@
 
 ## Link
 
-* Terminal 探索筆記 / [設定 / Preferred Applications](https://samwhelp.github.io/note-about-terminal/read/terminal/sakura/config-preferred-applications.html)
+* note-about-terminal / Config / [Preferred Applications](https://samwhelp.github.io/note-about-terminal/read/terminal/sakura/config-preferred-applications.html)
 
 ## Usage
 
