@@ -117,14 +117,58 @@ preferred_terminal_ctrl_set () {
 
 preferred_terminal_ctrl_set_for_gnome () {
 
-	echo "TODO: preferred_terminal_ctrl_set_for_gnome"
+
+	##
+	## https://samwhelp.github.io/note-about-terminal/read/terminal/sakura/config-preferred-applications/gnome-shell.html
+	##
+
+	echo "## Config: preferred_terminal_ctrl_set_for_gnome_shell"
+
+	local preferred_terminal="${1}"
+
+
+	echo
+	echo "##"
+	echo "## preferred_terminal: ${preferred_terminal}"
+	echo "##"
+	echo
+
+
+	echo
+	echo "gsettings set org.gnome.desktop.default-applications.terminal exec \"${preferred_terminal}\""
+	gsettings set org.gnome.desktop.default-applications.terminal exec "${preferred_terminal}"
+
+
+	echo
 
 	return 0
 }
 
 preferred_terminal_ctrl_set_for_cinnamon () {
 
-	echo "TODO: preferred_terminal_ctrl_set_for_cinnamon"
+
+	##
+	## https://samwhelp.github.io/note-about-terminal/read/terminal/sakura/config-preferred-applications/cinnamon.html
+	##
+
+	echo "## Config: preferred_terminal_ctrl_set_for_cinnamon"
+
+	local preferred_terminal="${1}"
+
+
+	echo
+	echo "##"
+	echo "## preferred_terminal: ${preferred_terminal}"
+	echo "##"
+	echo
+
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.default-applications.terminal exec \"${preferred_terminal}\""
+	gsettings set org.cinnamon.desktop.default-applications.terminal exec "${preferred_terminal}"
+
+
+	echo
 
 	return 0
 }
