@@ -28,6 +28,7 @@ parent: 範例
 
 ### gnome-shell
 
+> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L137-L158)
 
 ``` sh
 gsettings set org.gnome.desktop.background picture-uri "file:///usr/share/backgrounds/default.jpg"
@@ -40,6 +41,8 @@ gsettings set org.gnome.desktop.screensaver picture-uri "file:///usr/share/backg
 
 ### cinnamon
 
+> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L160-L182)
+
 ``` sh
 gsettings set org.cinnamon.desktop.background picture-uri "file:///usr/share/backgrounds/default.jpg"
 
@@ -49,6 +52,8 @@ gsettings set org.cinnamon.desktop.background picture-options "zoom"
 
 ### mate
 
+> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L184-L204)
+
 ``` sh
 gsettings set org.mate.background picture-filename "/usr/share/backgrounds/default.jpg"
 
@@ -57,6 +62,8 @@ gsettings set org.mate.background picture-options "zoom"
 
 
 ### xfce
+
+> [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L206-L245)
 
 ``` sh
 local screen=`xrandr --listactivemonitors | awk -F ' ' 'END {print $1}' | tr -d \:`
