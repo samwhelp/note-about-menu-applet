@@ -85,6 +85,8 @@ xfconf-query --channel xfce4-desktop --property "/backdrop/single-workspace-mode
 
 > [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L115-L135)
 
+> $ man [feh](https://manpages.ubuntu.com/manpages/jammy/en/man1/feh.1.html)
+
 ``` sh
 feh --bg-scale "/usr/share/backgrounds/default.jpg"
 ```
@@ -93,6 +95,8 @@ feh --bg-scale "/usr/share/backgrounds/default.jpg"
 ### pcmanfm
 
 > [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L247-L274)
+
+> $ man [pcmanfm](https://manpages.ubuntu.com/manpages/jammy/en/man1/pcmanfm.1.html)
 
 ``` sh
 pcmanfm --set-wallpaper "/usr/share/backgrounds/default.jpg"
@@ -104,6 +108,8 @@ pcmanfm --wallpaper-mode "fit"
 ### pcmanfm-qt
 
 > [程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select/wallpaper-select.sh#L276-L303)
+
+> $ man [pcmanfm-qt](https://manpages.ubuntu.com/manpages/jammy/en/man1/pcmanfm-qt.1.html)
 
 ``` sh
 pcmanfm-qt --set-wallpaper "/usr/share/backgrounds/default.jpg"
