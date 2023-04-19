@@ -21,5 +21,10 @@
 
 ## Demo Application
 
-* [demo-application](https://samwhelp.github.io/note-about-menu-applet/read/start/demo-application.html)
-
+| Demo | Project |
+| --- | --- |
+| [demo-source](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-source.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-source) |
+| [demo-style-select](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-style-select.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
+| [demo-wallpaper-select](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-wallpaper-select.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-wallpaper-select) |
+| [demo-im-select](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-im-select.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select) |
+| [demo-tint2-launcher](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-tint2-launcher.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-tint2-launcher) |
