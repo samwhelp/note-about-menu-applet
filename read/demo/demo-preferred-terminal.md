@@ -11,7 +11,7 @@ parent: 範例
 
 ## Link
 
-* Terminal 探索筆記 / [設定 / Preferred Applications](https://samwhelp.github.io/note-about-terminal/read/terminal/sakura/config-preferred-applications.html)
+* Terminal 探索筆記 / 設定 / [Preferred Applications](https://samwhelp.github.io/note-about-terminal/read/terminal/sakura/config-preferred-applications.html)
 
 
 ## Project
