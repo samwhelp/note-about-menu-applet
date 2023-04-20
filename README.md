@@ -19,9 +19,9 @@
 | [Selected](https://samwhelp.github.io/note-about-menu-applet/read/start/selected.html)
 
 
-## Modularize
+## 模組化
 
-| Modularize |
+| 模組化 |
 | --- |
 | [fzf](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/fzf.html) |
 | [dmenu](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/dmenu.html) |
@@ -29,7 +29,7 @@
 | [jgmenu](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize/jgmenu.html) |
 
 
-## Demo Application
+## 應用範例
 
 | Demo | Project |
 | --- | --- |
