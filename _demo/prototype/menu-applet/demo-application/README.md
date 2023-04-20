@@ -12,3 +12,4 @@
 | [demo-im-select](demo-im-select) |
 | [demo-tint2-launcher](demo-tint2-launcher) |
 | [demo-preferred-terminal](demo-preferred-terminal) |
+| [demo-mouse-button-modifier](demo-mouse-button-modifier) |

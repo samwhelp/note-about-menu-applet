@@ -23,6 +23,7 @@ has_children: true
 | [demo-im-select](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-im-select.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select) |
 | [demo-tint2-launcher](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-tint2-launcher.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-tint2-launcher) |
 | [demo-preferred-terminal](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-preferred-terminal.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-preferred-terminal) |
+| [demo-mouse-button-modifier](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-mouse-button-modifier.html) | [project](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier) |
 
 
 ## Demo Start
