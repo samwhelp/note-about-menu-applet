@@ -28,8 +28,6 @@ fcitx5
 ibus
 gcin
 hime
-
-
 EOF
 
 }

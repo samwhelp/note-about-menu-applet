@@ -28,7 +28,6 @@ xfce4-terminal
 mate-terminal
 gnome-terminal
 lxterminal
-
 EOF
 
 }
