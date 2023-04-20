@@ -28,7 +28,7 @@ parent: 範例
 
 * Ubuntu 探索筆記 / [中文輸入法](https://samwhelp.github.io/note-about-ubuntu/read/subject/im.html)
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select/im-select.sh#L111-L133)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select/im-select.sh#L109-L131)
 
 ``` sh
 im-config -n "fcitx"
@@ -47,7 +47,7 @@ im-config -n "hime"
 
 * Fedora 探索筆記 / [中文輸入法](https://samwhelp.github.io/note-about-fedora/read/im.html)
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select/im-select.sh#L152-L174)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-im-select/im-select.sh#L150-L172)
 
 ``` sh
 imsettings-switch "fcitx"
