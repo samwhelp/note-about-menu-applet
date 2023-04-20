@@ -28,7 +28,7 @@ parent: 範例
 
 ### gnome-shell
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L118-L145)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L114-L147)
 
 ``` sh
 settings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
@@ -39,7 +39,7 @@ gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
 
 ### cinnamon
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L147-L174)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L149-L182)
 
 ``` sh
 gsettings set org.cinnamon.desktop.wm.preferences mouse-button-modifier "<Super>"
@@ -50,7 +50,7 @@ gsettings set org.cinnamon.desktop.wm.preferences resize-with-right-button true
 
 ### mate
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L176-L203)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L184-L212)
 
 ``` sh
 gsettings set org.mate.Marco.general mouse-button-modifier "<Super>"
