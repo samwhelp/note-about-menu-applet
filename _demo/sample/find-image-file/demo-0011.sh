@@ -7,7 +7,7 @@
 ##
 
 
-#find . -type f -exec file {} \; | grep -o -P '^.+: \w+ image'
+#find . -name '*' -exec file {} \; | grep -o -P '^.+: \w+ image'
 
 
 ##
