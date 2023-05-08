@@ -14,6 +14,6 @@
 ## ## adjust
 ##
 
-THE_IMAGE_DIR_PATH="${THE_IMAGE_DIR_PATH:=$HOME/Pictures}"
+THE_DEFAULT_IMAGE_DIR_PATH="${THE_DEFAULT_IMAGE_DIR_PATH:=$HOME/Pictures}"
 
-find "${THE_IMAGE_DIR_PATH}" \( -iname "*.jpg" -or -iname "*.jpeg" -or -iname "*.png" -or -iname "*.tif" -or -iname "*.bmp" -or -iname "*.gif" -or -iname "*.xpm" -or -iname "*.nef" -or -iname "*.cr2" -or -iname "*.arw" \)
+find "${THE_DEFAULT_IMAGE_DIR_PATH}" \( -iname "*.jpg" -or -iname "*.jpeg" -or -iname "*.png" -or -iname "*.tif" -or -iname "*.bmp" -or -iname "*.gif" -or -iname "*.xpm" -or -iname "*.nef" -or -iname "*.cr2" -or -iname "*.arw" \)
