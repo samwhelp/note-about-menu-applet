@@ -17,14 +17,67 @@ main_menu_factory () {
 	echo "${THE_DEFAULT_MENU_FACTORY}"
 }
 
+#THE_DEFAULT_IMAGE_DIR_PATH="${THE_DEFAULT_IMAGE_DIR_PATH:=$HOME/Pictures}"
+THE_DEFAULT_IMAGE_DIR_PATH="${THE_DEFAULT_IMAGE_DIR_PATH:=/usr/share/backgrounds}"
 
-
+main_image_dir_path () {
+	echo "${THE_DEFAULT_IMAGE_DIR_PATH}"
+}
 
 menu_content () {
 
-	#ls -1 /usr/share/backgrounds/*.{png,jpg,jpeg}
+	#menu_content_by_ls
 
-	ls -1 /usr/share/backgrounds/*.{png,jpg,jpeg} 2>/dev/null
+	menu_content_by_find
+
+}
+
+menu_content_by_ls () {
+
+	local image_dir_path="$(main_image_dir_path)"
+
+	#ls -1 "${image_dir_path}"/*.{png,jpg,jpeg}
+
+	ls -1 "${image_dir_path}"/*.{png,jpg,jpeg} 2>/dev/null
+
+}
+
+menu_content_by_find () {
+
+	##
+	## https://stackoverflow.com/questions/16758105/list-all-graphic-image-files-with-find
+	##
+
+	menu_content_by_find_001
+
+	#menu_content_by_find_002
+
+}
+
+menu_content_by_find_001 () {
+
+	##
+	## https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/sample/find-image-file/demo-0022.sh
+	##
+
+	local image_dir_path="$(main_image_dir_path)"
+
+	find "${image_dir_path}" -type f -print0 |
+		xargs -0 file --mime-type |
+		grep -F 'image/' |
+		cut -d ':' -f 1
+
+}
+
+menu_content_by_find_002 () {
+
+	##
+	## https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/sample/find-image-file/demo-0031.sh
+	##
+
+	local image_dir_path="$(main_image_dir_path)"
+
+	find "${image_dir_path}" \( -iname "*.jpg" -or -iname "*.jpeg" -or -iname "*.png" -or -iname "*.tif" -or -iname "*.bmp" -or -iname "*.gif" -or -iname "*.xpm" -or -iname "*.nef" -or -iname "*.cr2" -or -iname "*.arw" \)
 
 }
 
