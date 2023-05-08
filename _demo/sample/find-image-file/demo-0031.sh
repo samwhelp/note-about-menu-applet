@@ -4,10 +4,10 @@
 ##
 ## ## orginal
 ##
+## *https://github.com/trimap/photofind
 ##
 
-
-#find . -type f -exec file {} \; | grep -o -P '^.+: \w+ image'
+#find ~/Pictures \( -iname "*.jpg" -or -iname "*.jpeg" -or -iname "*.png" -or -iname "*.tif" -or -iname "*.bmp" -or -iname "*.gif" -or -iname "*.xpm" -or -iname "*.nef" -or -iname "*.cr2" -or -iname "*.arw" \) -size +20k
 
 
 ##
@@ -16,4 +16,4 @@
 
 THE_DEFAULT_IMAGE_DIR_PATH="${THE_DEFAULT_IMAGE_DIR_PATH:=$HOME/Pictures}"
 
-find "${THE_DEFAULT_IMAGE_DIR_PATH}" -type f -exec file {} \; | grep -o -P '^.+: \w+ image' | cut -d ':' -f 1
+find "${THE_DEFAULT_IMAGE_DIR_PATH}" \( -iname "*.jpg" -or -iname "*.jpeg" -or -iname "*.png" -or -iname "*.tif" -or -iname "*.bmp" -or -iname "*.gif" -or -iname "*.xpm" -or -iname "*.nef" -or -iname "*.cr2" -or -iname "*.arw" \)
