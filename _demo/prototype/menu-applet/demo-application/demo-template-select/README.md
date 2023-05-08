@@ -1,6 +1,6 @@
 
 
-# demo-wallpaper-select
+# demo-template-select
 
 
 ## Usage
@@ -11,13 +11,13 @@
 run
 
 ``` sh
-./wallpaper-select.sh
+./template-select.sh
 ```
 
 or run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_DE=mate ./wallpaper-select.sh
+THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_TEMPLATE_DIR_PATH="$HOME/Templates" ./template-select.sh
 ```
 
 ### alter
@@ -25,78 +25,10 @@ THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_DE=mate ./wallpaper-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=rofi THE_DEFAULT_DE=gnome ./wallpaper-select.sh
+THE_DEFAULT_MENU_FACTORY=rofi THE_DEFAULT_TEMPLATE_DIR_PATH="$HOME/scripts" ./template-select.sh
 ```
 
 
-## Usage / Desktop environment
-
-### mate
-
-run
-
-``` sh
-./wallpaper-select.sh
-```
-
-or run
-
-``` sh
-THE_DEFAULT_DE=mate ./wallpaper-select.sh
-```
-
-
-### gnome
-
-run
-
-``` sh
-THE_DEFAULT_DE=gnome ./wallpaper-select.sh
-```
-
-
-### cinnamon
-
-run
-
-``` sh
-THE_DEFAULT_DE=cinnamon ./wallpaper-select.sh
-```
-
-
-### xfce
-
-run
-
-``` sh
-THE_DEFAULT_DE=xfce ./wallpaper-select.sh
-```
-
-
-### feh
-
-run
-
-``` sh
-THE_DEFAULT_DE=feh ./wallpaper-select.sh
-```
-
-### pcmanfm
-
-run
-
-``` sh
-THE_DEFAULT_DE=pcmanfm ./wallpaper-select.sh
-```
-
-
-### pcmanfm-qt
-
-run
-
-``` sh
-THE_DEFAULT_DE=pcmanfm-qt ./wallpaper-select.sh
-```
 
 
 ## Usage / Menu Factory
@@ -107,13 +39,13 @@ THE_DEFAULT_DE=pcmanfm-qt ./wallpaper-select.sh
 run
 
 ``` sh
-./wallpaper-select.sh
+./template-select.sh
 ```
 
 or run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=fzf ./wallpaper-select.sh
+THE_DEFAULT_MENU_FACTORY=fzf ./template-select.sh
 ```
 
 ### dmenu
@@ -121,7 +53,7 @@ THE_DEFAULT_MENU_FACTORY=fzf ./wallpaper-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=dmenu ./wallpaper-select.sh
+THE_DEFAULT_MENU_FACTORY=dmenu ./template-select.sh
 ```
 
 ### rofi
@@ -129,7 +61,7 @@ THE_DEFAULT_MENU_FACTORY=dmenu ./wallpaper-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=rofi ./wallpaper-select.sh
+THE_DEFAULT_MENU_FACTORY=rofi ./template-select.sh
 ```
 
 ### jgmenu
@@ -137,5 +69,5 @@ THE_DEFAULT_MENU_FACTORY=rofi ./wallpaper-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=jgmenu ./wallpaper-select.sh
+THE_DEFAULT_MENU_FACTORY=jgmenu ./template-select.sh
 ```
