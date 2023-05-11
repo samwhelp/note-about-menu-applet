@@ -213,9 +213,33 @@ mouse_button_modifier_ctrl_set_for_mate () {
 
 mouse_button_modifier_ctrl_set_for_xfce () {
 
-	echo "TODO: mouse_button_modifier_ctrl_set_for_xfce"
+	echo "Config: mouse_button_modifier_ctrl_set_for_xfce"
+
+	local mouse_button_modifier="${1}"
+
+
+	echo
+	echo "##"
+	echo "## mouse_button_modifier: ${mouse_button_modifier}"
+	echo "##"
+	echo
+
+	echo
+	echo "xfconf-query --channel xfwm4 --property '/general/easy_click' --set '${mouse_button_modifier}' --type 'string' --create"
+	xfconf-query --channel xfwm4 --property "/general/easy_click" --set "${mouse_button_modifier}" --type 'string' --create
+
+
+	#echo
+	#echo "sleep 5"
+	#sleep 5
+
+	echo
+	echo "Please Check:"
+	echo "grep 'easy_click' ${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
+	#grep 'easy_click' "${HOME}/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml"
 
 	return 0
+
 }
 
 
