@@ -67,13 +67,18 @@ gsettings set org.mate.Marco.general resize-with-right-button true
 **Super**
 
 ``` sh
-xfconf-query --channel xfwm4 --property "/general/easy_click" --set 'Super' --type 'string' --create
+xfconf-query --channel xfwm4 --property "/general/easy_click" --set "Super" --type "string" --create
 ```
 
 **Alt**
 
 ``` sh
-xfconf-query --channel xfwm4 --property "/general/easy_click" --set 'Alt' --type 'string' --create
+xfconf-query --channel xfwm4 --property "/general/easy_click" --set "Alt" --type "string" --create
 ```
 
 
+**To Check**
+
+``` sh
+grep 'easy_click' ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+```
