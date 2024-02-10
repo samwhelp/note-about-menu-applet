@@ -21,6 +21,7 @@ parent: 範例
 | 環境 |
 | --- |
 | [gnome-shell](#gnome-shell) |
+| [budgie](#budgie) |
 | [cinnamon](#cinnamon) |
 | [mate](#mate) |
 | [xfce](#xfce) |
@@ -29,6 +30,16 @@ parent: 範例
 ### gnome-shell
 
 > [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-mouse-button-modifier/mouse-button-modifier.sh#L114-L147)
+
+``` sh
+settings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
+
+gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
+```
+
+
+### budgie
+
 
 ``` sh
 settings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
