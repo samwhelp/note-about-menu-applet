@@ -82,3 +82,11 @@ xfconf-query --channel xfwm4 --property "/general/easy_click" --set "Alt" --type
 ``` sh
 grep 'easy_click' ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 ```
+
+
+## 相關筆記
+
+| 相關筆記 |
+| ------- |
+| Gnome Shell 探索筆記 / [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-gnome-shell/read/howto/config-mouse-button-modifier.html) |
+| Budgie Desktop 探索筆記 / [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-budgie/read/howto/config-mouse-button-modifier.html) |
