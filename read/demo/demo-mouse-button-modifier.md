@@ -103,3 +103,4 @@ grep 'easy_click' ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
 | Budgie Desktop 探索筆記 / [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-budgie/read/howto/config-mouse-button-modifier.html) |
 | Mate Desktop 探索筆記 / [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-mate/read/howto/config-mouse-button-modifier.html) |
 | Cinnamon Desktop 探索筆記 / [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-cinnamon/read/howto/config-mouse-button-modifier.html) |
+| Xfce 探索筆記 / [設定 Mouse Button Modifier](https://samwhelp.github.io/note-about-xfce/read/howto/config-mouse-button-modifier.html) |
