@@ -71,6 +71,7 @@
 
 | Link | GitHub |
 | ---- | ------ |
+| [Fzf 探索筆記](https://samwhelp.github.io/note-about-fzf/) | [GitHub](https://github.com/samwhelp/note-about-fzf) |
 | [Rofi 探索筆記](https://samwhelp.github.io/note-about-rofi/) | [GitHub](https://github.com/samwhelp/note-about-rofi) |
 
 
