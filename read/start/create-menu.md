@@ -8,6 +8,16 @@ parent: 入門
 
 # Create Menu
 
+> Previous: [Menu Content](https://samwhelp.github.io/note-about-menu-applet/read/start/menu-content.html)
+
+
+* [fzf](#fzf)
+* [dmenu](#dmenu)
+* [rofi](#rofi)
+* [jgmenu](#jgmenu)
+
+
+
 
 ## fzf
 
@@ -18,6 +28,8 @@ parent: 入門
 ``` sh
 echo -e "aaa\nbbb\nccc" | fzf
 ```
+
+
 
 
 ## dmenu
@@ -31,6 +43,8 @@ echo -e "aaa\nbbb\nccc" | dmenu -b -l 10
 ```
 
 
+
+
 ## rofi
 
 * [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/rofi/start.sh)
@@ -40,6 +54,8 @@ echo -e "aaa\nbbb\nccc" | dmenu -b -l 10
 ``` sh
 echo -e "aaa\nbbb\nccc" | rofi -dmenu
 ```
+
+
 
 
 ## jgmenu
@@ -58,3 +74,7 @@ echo -e "aaa\nbbb\nccc" | jgmenu --simple --center --no-spawn
 echo -e "aaa,val_aaa\nbbb,val_bbb\nccc,val_ccc" | jgmenu --simple --center --no-spawn
 ```
 
+
+
+
+> Next: [Selected](https://samwhelp.github.io/note-about-menu-applet/read/start/selected.html)

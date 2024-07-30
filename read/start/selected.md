@@ -8,6 +8,16 @@ parent: 入門
 
 # Selected
 
+> Previous: [Create Menu](https://samwhelp.github.io/note-about-menu-applet/read/start/create-menu.html)
+
+
+* [fzf](#fzf)
+* [dmenu](#dmenu)
+* [rofi](#rofi)
+* [jgmenu](#jgmenu)
+
+
+
 
 ## fzf
 
@@ -20,6 +30,8 @@ selected=$(echo -e "aaa\nbbb\nccc" | fzf)
 
 echo "Selected: ${selected}"
 ```
+
+
 
 
 ## dmenu
@@ -35,6 +47,8 @@ echo "Selected: ${selected}"
 ```
 
 
+
+
 ## rofi
 
 * [範例](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-start/rofi/selected.sh)
@@ -46,6 +60,8 @@ selected=$(echo -e "aaa\nbbb\nccc" | rofi -dmenu)
 
 echo "Selected: ${selected}"
 ```
+
+
 
 
 ## jgmenu
@@ -60,3 +76,7 @@ selected=$(echo -e "aaa,val_aaa\nbbb,val_bbb\nccc,val_ccc" | jgmenu --simple --c
 echo "Selected: ${selected}"
 ```
 
+
+
+
+> Next: [Modularize](https://samwhelp.github.io/note-about-menu-applet/read/start/modularize.html)

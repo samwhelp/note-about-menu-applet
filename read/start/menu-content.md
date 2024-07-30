@@ -9,6 +9,8 @@ parent: 入門
 # Menu Content
 
 
+
+
 ## Example Content
 
 用來產生「Menu」的「範例內容」如下
@@ -19,6 +21,8 @@ bbb
 ccc
 
 ```
+
+
 
 
 ## created by echo
@@ -32,6 +36,8 @@ echo -e "aaa\nbbb\nccc"
 * man [echo](https://man.archlinux.org/man/echo.1)
 
 
+
+
 ## created by printf
 
 執行下面指令
@@ -41,6 +47,8 @@ printf "aaa\nbbb\nccc"
 ```
 
 * man [printf](https://man.archlinux.org/man/printf.1)
+
+
 
 
 ## created by cat
@@ -57,6 +65,8 @@ EOF
 ```
 
 * man [cat](https://man.archlinux.org/man/cat.1)
+
+
 
 
 ## created by cat file
@@ -79,3 +89,8 @@ cat menu-content.txt
 ```
 
 * man [cat](https://man.archlinux.org/man/cat.1)
+
+
+
+
+> Next: [Create Menu](https://samwhelp.github.io/note-about-menu-applet/read/start/create-menu.html)
