@@ -30,3 +30,12 @@ selected="$(menu_start)"
 
 echo "Selected: ${selected}"
 ```
+
+
+
+
+## 相關筆記
+
+| Link | GitHub |
+| ---- | ------ |
+| [Rofi 探索筆記](https://samwhelp.github.io/note-about-rofi/) | [GitHub](https://github.com/samwhelp/note-about-rofi) |
