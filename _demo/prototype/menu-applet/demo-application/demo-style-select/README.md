@@ -3,6 +3,16 @@
 # demo-style-select
 
 
+
+
+## Subject
+
+* [Usage](#usage)
+* [Link](#link)
+
+
+
+
 ## Usage
 
 
@@ -17,16 +27,21 @@ run
 or run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_DE=mate ./style-select.sh
+THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_DE=gnome ./style-select.sh
 ```
 
-### alter
+
+
+
+### alternative
 
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=rofi THE_DEFAULT_DE=gnome ./style-select.sh
+THE_DEFAULT_MENU_FACTORY=rofi THE_DEFAULT_DE=xfce ./style-select.sh
 ```
+
+
 
 
 ## Usage / Desktop environment
@@ -73,6 +88,8 @@ THE_DEFAULT_DE=xfce ./style-select.sh
 ```
 
 
+
+
 ## Usage / Menu Factory
 
 
@@ -113,3 +130,14 @@ run
 ``` sh
 THE_DEFAULT_MENU_FACTORY=jgmenu ./style-select.sh
 ```
+
+
+
+
+## Link
+
+| Link | GitHub |
+| ---- | ------ |
+| [make-xfce-style](https://samwhelp.github.io/make-xfce-style/) | [GitHub](https://github.com/samwhelp/make-xfce-style) |
+| [make-gnome-shell-layout-wincity](https://samwhelp.github.io/make-gnome-shell-layout-wincity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
+| [make-gnome-shell-layout-maccity](https://samwhelp.github.io/make-gnome-shell-layout-maccity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
