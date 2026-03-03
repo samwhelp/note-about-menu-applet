@@ -5,7 +5,7 @@
 ## https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
 ##
 
-THE_DEFAULT_DE="${THE_DEFAULT_DE:=mate}"
+THE_DEFAULT_DE="${THE_DEFAULT_DE:=gnome}"
 
 main_desktop_environment () {
 	echo "${THE_DEFAULT_DE}"
@@ -140,7 +140,11 @@ style_ctrl_set_for_cinnamon () {
 
 style_ctrl_set_for_mate () {
 
+	echo
+	echo "##"
 	echo "## Config: style_ctrl_set_for_mate"
+	echo "##"
+	echo
 
 	local wm_theme="${1}"
 	local gtk_theme="${2}"
@@ -189,7 +193,51 @@ style_ctrl_set_for_mate () {
 
 style_ctrl_set_for_xfce () {
 
-	echo "TODO: style_ctrl_set_for_xfce"
+	echo
+	echo "##"
+	echo "## Config: style_ctrl_set_for_xfce"
+	echo "##"
+	echo
+
+	local wm_theme="${1}"
+	local gtk_theme="${2}"
+	local icon_theme="${3}"
+	local cursor_theme="${4}"
+	local cursor_size="${5}"
+	local gnome_shell_theme="${6}"
+
+	echo
+	echo "##"
+	echo "## wm_theme: ${wm_theme}"
+	echo "## gtk_theme: ${gtk_theme}"
+	echo "## icon_theme: ${icon_theme}"
+	echo "## cursor_theme: ${cursor_theme}"
+	echo "## cursor_size: ${cursor_size}"
+	echo "## gnome_shell_theme: ${gnome_shell_theme}"
+	echo "##"
+	echo
+
+
+	echo
+	echo "xfconf-query --channel xfwm4 --property \"/general/theme\" --create --type \"string\" --set \"${wm_theme}\""
+	xfconf-query --channel xfwm4 --property "/general/theme" --create --type "string" --set "${wm_theme}"
+
+	echo
+	echo "xfconf-query --channel xsettings --property \"/Net/ThemeName\" --create --type \"string\" --set \"${gtk_theme}\""
+	xfconf-query --channel xsettings --property "/Net/ThemeName" --create --type "string" --set "${gtk_theme}"
+
+	echo
+	echo "xfconf-query --channel xsettings --property \"/Net/IconThemeName\" --create --type \"string\" --set \"${icon_theme}\""
+	xfconf-query --channel xsettings --property "/Net/IconThemeName" --create --type "string" --set "${icon_theme}"
+
+	echo
+	echo "xfconf-query --channel xsettings --property \"/Gtk/CursorThemeName\" --create --type \"string\" --set \"${cursor_theme}\""
+	xfconf-query --channel xsettings --property "/Gtk/CursorThemeName" --create --type "string" --set "${cursor_theme}"
+
+	echo
+	echo "xfconf-query --channel xsettings --property \"/Gtk/CursorThemeSize\" --create --type \"int\" --set \"${cursor_size}\""
+	xfconf-query --channel xsettings --property "/Gtk/CursorThemeSize" --create --type "int" --set "${cursor_size}"
+
 
 	return 0
 }

@@ -1,0 +1,6 @@
+THE_GHOME_SHELL_THEME_NAME="Vimix-dark-ruby"
+THE_WM_THEME_NAME="Vimix-dark-ruby"
+THE_GTK_THEME_NAME="Vimix-dark-ruby"
+THE_ICON_THEME_NAME="Citrus-red-dark"
+THE_CURSOR_THEME_NAME="Vimix-cursors"
+THE_CURSOR_SIZE="24"
