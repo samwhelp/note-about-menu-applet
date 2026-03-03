@@ -1,0 +1,6 @@
+THE_GHOME_SHELL_THEME_NAME="Graphite-Dark"
+THE_WM_THEME_NAME="Graphite-Dark"
+THE_GTK_THEME_NAME="Graphite-Dark"
+THE_ICON_THEME_NAME="GreyStone-Circle"
+THE_CURSOR_THEME_NAME="Graphite-dark-cursors"
+THE_CURSOR_SIZE="24"

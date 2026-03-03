@@ -224,24 +224,24 @@ style_ctrl_set_for_xfce () {
 
 
 	echo
-	echo "xfconf-query --channel xfwm4 --property \"/general/theme\" --create --type \"string\" --set \"${wm_theme}\""
-	xfconf-query --channel xfwm4 --property "/general/theme" --create --type "string" --set "${wm_theme}"
+	echo "xfconf-query --channel \"xfwm4\" --property \"/general/theme\" --create --type \"string\" --set \"${wm_theme}\""
+	xfconf-query --channel "xfwm4" --property "/general/theme" --create --type "string" --set "${wm_theme}"
 
 	echo
-	echo "xfconf-query --channel xsettings --property \"/Net/ThemeName\" --create --type \"string\" --set \"${gtk_theme}\""
-	xfconf-query --channel xsettings --property "/Net/ThemeName" --create --type "string" --set "${gtk_theme}"
+	echo "xfconf-query --channel \"xsettings\" --property \"/Net/ThemeName\" --create --type \"string\" --set \"${gtk_theme}\""
+	xfconf-query --channel "xsettings" --property "/Net/ThemeName" --create --type "string" --set "${gtk_theme}"
 
 	echo
-	echo "xfconf-query --channel xsettings --property \"/Net/IconThemeName\" --create --type \"string\" --set \"${icon_theme}\""
-	xfconf-query --channel xsettings --property "/Net/IconThemeName" --create --type "string" --set "${icon_theme}"
+	echo "xfconf-query --channel \"xsettings\" --property \"/Net/IconThemeName\" --create --type \"string\" --set \"${icon_theme}\""
+	xfconf-query --channel "xsettings" --property "/Net/IconThemeName" --create --type "string" --set "${icon_theme}"
 
 	echo
-	echo "xfconf-query --channel xsettings --property \"/Gtk/CursorThemeName\" --create --type \"string\" --set \"${cursor_theme}\""
-	xfconf-query --channel xsettings --property "/Gtk/CursorThemeName" --create --type "string" --set "${cursor_theme}"
+	echo "xfconf-query --channel \"xsettings\" --property \"/Gtk/CursorThemeName\" --create --type \"string\" --set \"${cursor_theme}\""
+	xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeName" --create --type "string" --set "${cursor_theme}"
 
 	echo
-	echo "xfconf-query --channel xsettings --property \"/Gtk/CursorThemeSize\" --create --type \"int\" --set \"${cursor_size}\""
-	xfconf-query --channel xsettings --property "/Gtk/CursorThemeSize" --create --type "int" --set "${cursor_size}"
+	echo "xfconf-query --channel \"xsettings\" --property \"/Gtk/CursorThemeSize\" --create --type \"int\" --set \"${cursor_size}\""
+	xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeSize" --create --type "int" --set "${cursor_size}"
 
 
 	echo
