@@ -69,7 +69,12 @@ demo_applet () {
 		return 0
 	fi
 
-	echo "## Selected: ${selected}"
+
+	echo
+	echo "##"
+	echo "## ## Selected: ${selected}"
+	echo "##"
+	echo
 
 	
 	local source_file_path="./profiles/${selected}/config.sh"
@@ -114,7 +119,7 @@ style_ctrl_set () {
 
 	echo
 	echo "##"
-	echo "## main_desktop_environment: ${agent}"
+	echo "## ## main_desktop_environment: ${agent}"
 	echo "##"
 	echo
 
@@ -142,7 +147,7 @@ style_ctrl_set_for_mate () {
 
 	echo
 	echo "##"
-	echo "## Config: style_ctrl_set_for_mate"
+	echo "## ## Config: style_ctrl_set_for_mate"
 	echo "##"
 	echo
 
@@ -195,7 +200,7 @@ style_ctrl_set_for_xfce () {
 
 	echo
 	echo "##"
-	echo "## Config: style_ctrl_set_for_xfce"
+	echo "## ## Config: style_ctrl_set_for_xfce"
 	echo "##"
 	echo
 
@@ -238,6 +243,8 @@ style_ctrl_set_for_xfce () {
 	echo "xfconf-query --channel xsettings --property \"/Gtk/CursorThemeSize\" --create --type \"int\" --set \"${cursor_size}\""
 	xfconf-query --channel xsettings --property "/Gtk/CursorThemeSize" --create --type "int" --set "${cursor_size}"
 
+
+	echo
 
 	return 0
 }
