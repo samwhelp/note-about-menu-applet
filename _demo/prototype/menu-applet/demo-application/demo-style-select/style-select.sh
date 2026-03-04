@@ -131,7 +131,70 @@ style_ctrl_set () {
 
 style_ctrl_set_for_gnome () {
 
-	echo "TODO: style_ctrl_set_for_gnome"
+	echo
+	echo "##"
+	echo "## ## Config: style_ctrl_set_for_gnome"
+	echo "##"
+	echo
+
+	local wm_theme="${1}"
+	local gtk_theme="${2}"
+	local icon_theme="${3}"
+	local cursor_theme="${4}"
+	local cursor_size="${5}"
+	local gnome_shell_theme="${6}"
+
+	echo
+	echo "##"
+	echo "## wm_theme: ${wm_theme}"
+	echo "## gtk_theme: ${gtk_theme}"
+	echo "## icon_theme: ${icon_theme}"
+	echo "## cursor_theme: ${cursor_theme}"
+	echo "## cursor_size: ${cursor_size}"
+	echo "## gnome_shell_theme: ${gnome_shell_theme}"
+	echo "##"
+	echo
+
+
+	echo
+	echo "gsettings set org.gnome.desktop.wm.preferences theme \"${wm_theme}\""
+	gsettings set org.gnome.desktop.wm.preferences theme "${wm_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface gtk-theme \"${gtk_theme}\""
+	gsettings set org.gnome.desktop.interface gtk-theme "${gtk_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface icon-theme \"${icon_theme}\""
+	gsettings set org.gnome.desktop.interface icon-theme "${icon_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface cursor-theme \"${cursor_theme}\""
+	gsettings set org.gnome.desktop.interface cursor-theme "${cursor_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface cursor-size \"${cursor_size}\""
+	gsettings set org.gnome.desktop.interface cursor-size "${cursor_size}"
+
+	echo
+	echo "dconf write /org/gnome/shell/extensions/user-theme/name \"'${gnome_shell_theme}'\""
+	dconf write /org/gnome/shell/extensions/user-theme/name "'${gnome_shell_theme}'"
+
+	echo
+	echo "dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark \"'${gtk_theme}'\""
+	dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark "'${gtk_theme}'"
+
+	echo
+	echo "dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light \"'${gtk_theme}'\""
+	dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light "'${gtk_theme}'"
+
+
+	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher dark "${gnome_shell_theme}"
+	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher light "${gnome_shell_theme}"
+	#gsettings set org.gnome.shell.extensions.user-theme name "${gnome_shell_theme}"
+
+
+	echo
 
 	return 0
 }
