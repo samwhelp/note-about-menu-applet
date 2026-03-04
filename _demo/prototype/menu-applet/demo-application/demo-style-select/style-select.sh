@@ -94,12 +94,14 @@ demo_applet () {
 	echo "## THE_ICON_THEME_NAME: ${THE_ICON_THEME_NAME}"
 	echo "## THE_CURSOR_THEME_NAME: ${THE_CURSOR_THEME_NAME}"
 	echo "## THE_CURSOR_SIZE: ${THE_CURSOR_SIZE}"
-	echo "## THE_GHOME_SHELL_THEME_NAME: ${THE_GHOME_SHELL_THEME_NAME}"
+	echo "## THE_PREFER_DARK_THEME: ${THE_PREFER_DARK_THEME}"
+	echo "## THE_PREFER_DARK_THEME_NAME: ${THE_PREFER_DARK_THEME_NAME}"
+	echo "## THE_PREFER_LIGHT_THEME_NAME: ${THE_PREFER_LIGHT_THEME_NAME}"
 	echo "##"
 	echo
 
 
-	style_ctrl_set "${THE_WM_THEME_NAME}" "${THE_GTK_THEME_NAME}" "${THE_ICON_THEME_NAME}" "${THE_CURSOR_THEME_NAME}" "${THE_CURSOR_SIZE}" "${THE_GHOME_SHELL_THEME_NAME}"
+	style_ctrl_set "${THE_WM_THEME_NAME}" "${THE_GTK_THEME_NAME}" "${THE_ICON_THEME_NAME}" "${THE_CURSOR_THEME_NAME}" "${THE_CURSOR_SIZE}" "${THE_PREFER_DARK_THEME}" "${THE_PREFER_DARK_THEME_NAME}" "${THE_PREFER_LIGHT_THEME_NAME}"
 
 }
 
@@ -142,7 +144,15 @@ style_ctrl_set_for_gnome () {
 	local icon_theme="${3}"
 	local cursor_theme="${4}"
 	local cursor_size="${5}"
-	local gnome_shell_theme="${6}"
+	local prefer_dark_theme="${6}"
+	local prefer_dark_theme_name="${7}"
+	local prefer_light_theme_name="${8}"
+
+	local color_scheme="default"
+
+	if [ "${prefer_dark_theme}" = "true" ]; then
+		color_scheme="prefer-dark"
+	fi
 
 	echo
 	echo "##"
@@ -151,7 +161,9 @@ style_ctrl_set_for_gnome () {
 	echo "## icon_theme: ${icon_theme}"
 	echo "## cursor_theme: ${cursor_theme}"
 	echo "## cursor_size: ${cursor_size}"
-	echo "## gnome_shell_theme: ${gnome_shell_theme}"
+	echo "## prefer_dark_theme: ${prefer_dark_theme}"
+	echo "## prefer_dark_theme_name: ${prefer_dark_theme_name}"
+	echo "## prefer_light_theme_name: ${prefer_light_theme_name}"
 	echo "##"
 	echo
 
@@ -177,21 +189,25 @@ style_ctrl_set_for_gnome () {
 	gsettings set org.gnome.desktop.interface cursor-size "${cursor_size}"
 
 	echo
-	echo "dconf write /org/gnome/shell/extensions/user-theme/name \"'${gnome_shell_theme}'\""
-	dconf write /org/gnome/shell/extensions/user-theme/name "'${gnome_shell_theme}'"
+	echo "gsettings set org.gnome.desktop.interface color-scheme \"${color_scheme}\""
+	gsettings set org.gnome.desktop.interface color-scheme "${color_scheme}"
 
 	echo
-	echo "dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark \"'${gtk_theme}'\""
-	dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark "'${gtk_theme}'"
+	echo "dconf write /org/gnome/shell/extensions/user-theme/name \"'${gtk_theme}'\""
+	dconf write /org/gnome/shell/extensions/user-theme/name "'${gtk_theme}'"
 
 	echo
-	echo "dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light \"'${gtk_theme}'\""
-	dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light "'${gtk_theme}'"
+	echo "dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark \"'${prefer_dark_theme_name}'\""
+	dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark "'${prefer_dark_theme_name}'"
+
+	echo
+	echo "dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light \"'${prefer_light_theme_name}'\""
+	dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light "'${prefer_light_theme_name}'"
 
 
-	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher dark "${gnome_shell_theme}"
-	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher light "${gnome_shell_theme}"
-	#gsettings set org.gnome.shell.extensions.user-theme name "${gnome_shell_theme}"
+	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher dark "${prefer_dark_theme_name}"
+	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher light "${prefer_light_theme_name}"
+	#gsettings set org.gnome.shell.extensions.user-theme name "${gtk_theme}"
 
 
 	echo
@@ -219,7 +235,9 @@ style_ctrl_set_for_mate () {
 	local icon_theme="${3}"
 	local cursor_theme="${4}"
 	local cursor_size="${5}"
-	local gnome_shell_theme="${6}"
+	local prefer_dark_theme="${6}"
+	local prefer_dark_theme_name="${7}"
+	local prefer_light_theme_name="${8}"
 
 	echo
 	echo "##"
@@ -228,7 +246,9 @@ style_ctrl_set_for_mate () {
 	echo "## icon_theme: ${icon_theme}"
 	echo "## cursor_theme: ${cursor_theme}"
 	echo "## cursor_size: ${cursor_size}"
-	echo "## gnome_shell_theme: ${gnome_shell_theme}"
+	echo "## prefer_dark_theme: ${prefer_dark_theme}"
+	echo "## prefer_dark_theme_name: ${prefer_dark_theme_name}"
+	echo "## prefer_light_theme_name: ${prefer_light_theme_name}"
 	echo "##"
 	echo
 
@@ -272,7 +292,9 @@ style_ctrl_set_for_xfce () {
 	local icon_theme="${3}"
 	local cursor_theme="${4}"
 	local cursor_size="${5}"
-	local gnome_shell_theme="${6}"
+	local prefer_dark_theme="${6}"
+	local prefer_dark_theme_name="${7}"
+	local prefer_light_theme_name="${8}"
 
 	echo
 	echo "##"
@@ -281,7 +303,9 @@ style_ctrl_set_for_xfce () {
 	echo "## icon_theme: ${icon_theme}"
 	echo "## cursor_theme: ${cursor_theme}"
 	echo "## cursor_size: ${cursor_size}"
-	echo "## gnome_shell_theme: ${gnome_shell_theme}"
+	echo "## prefer_dark_theme: ${prefer_dark_theme}"
+	echo "## prefer_dark_theme_name: ${prefer_dark_theme_name}"
+	echo "## prefer_light_theme_name: ${prefer_light_theme_name}"
 	echo "##"
 	echo
 
