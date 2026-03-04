@@ -1,0 +1,8 @@
+THE_WM_THEME_NAME="Vimix-light-ruby"
+THE_GTK_THEME_NAME="Vimix-light-ruby"
+THE_ICON_THEME_NAME="Citrus-red"
+THE_CURSOR_THEME_NAME="Vimix-white-cursors"
+THE_CURSOR_SIZE="24"
+THE_PREFER_DARK_THEME="false"
+THE_PREFER_DARK_THEME_NAME="Vimix-dark-ruby"
+THE_PREFER_LIGHT_THEME_NAME="Vimix-light-ruby"
