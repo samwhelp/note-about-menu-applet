@@ -1,0 +1,8 @@
+THE_WM_THEME_NAME="Yaru-prussiangreen"
+THE_GTK_THEME_NAME="Yaru-prussiangreen"
+THE_ICON_THEME_NAME="Yaru-prussiangreen"
+THE_CURSOR_THEME_NAME="breeze_cursors"
+THE_CURSOR_SIZE="24"
+THE_PREFER_DARK_THEME="false"
+THE_PREFER_DARK_THEME_NAME="Yaru-prussiangreen-dark"
+THE_PREFER_LIGHT_THEME_NAME="Yaru-prussiangreen"
