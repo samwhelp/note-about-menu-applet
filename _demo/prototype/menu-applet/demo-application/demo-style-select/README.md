@@ -140,7 +140,13 @@ THE_MASTER_MENU_FACTORY=jgmenu ./style-select.sh
 
 | Link | GitHub |
 | ---- | ------ |
-| [make-xfce-style](https://samwhelp.github.io/make-xfce-style/) | [GitHub](https://github.com/samwhelp/make-xfce-style) |
 | [make-gnome-shell-style](https://samwhelp.github.io/make-gnome-shell-style/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-style) |
+| [make-xfce-style](https://samwhelp.github.io/make-xfce-style/) | [GitHub](https://github.com/samwhelp/make-xfce-style) |
+| [make-mate-style](https://samwhelp.github.io/make-mate-style/) | [GitHub](https://github.com/samwhelp/make-mate-style) |
+| [make-cinnamon-style](https://samwhelp.github.io/make-cinnamon-style/) | [GitHub](https://github.com/samwhelp/make-cinnamon-style) |
+
+
+| Link | GitHub |
+| ---- | ------ |
 | [make-gnome-shell-layout-wincity](https://samwhelp.github.io/make-gnome-shell-layout-wincity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
 | [make-gnome-shell-layout-maccity](https://samwhelp.github.io/make-gnome-shell-layout-maccity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
