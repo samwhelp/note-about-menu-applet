@@ -27,7 +27,7 @@ run
 or run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_DE=gnome ./style-select.sh
+THE_MASTER_MENU_FACTORY=fzf THE_MASTER_DE=gnome ./style-select.sh
 ```
 
 
@@ -38,7 +38,7 @@ THE_DEFAULT_MENU_FACTORY=fzf THE_DEFAULT_DE=gnome ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=rofi THE_DEFAULT_DE=xfce ./style-select.sh
+THE_MASTER_MENU_FACTORY=rofi THE_MASTER_DE=xfce ./style-select.sh
 ```
 
 
@@ -57,7 +57,7 @@ run
 or run
 
 ``` sh
-THE_DEFAULT_DE=mate ./style-select.sh
+THE_MASTER_DE=mate ./style-select.sh
 ```
 
 
@@ -66,7 +66,7 @@ THE_DEFAULT_DE=mate ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_DE=gnome ./style-select.sh
+THE_MASTER_DE=gnome ./style-select.sh
 ```
 
 
@@ -75,7 +75,7 @@ THE_DEFAULT_DE=gnome ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_DE=cinnamon ./style-select.sh
+THE_MASTER_DE=cinnamon ./style-select.sh
 ```
 
 
@@ -84,7 +84,7 @@ THE_DEFAULT_DE=cinnamon ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_DE=xfce ./style-select.sh
+THE_MASTER_DE=xfce ./style-select.sh
 ```
 
 
@@ -104,7 +104,7 @@ run
 or run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=fzf ./style-select.sh
+THE_MASTER_MENU_FACTORY=fzf ./style-select.sh
 ```
 
 ### dmenu
@@ -112,7 +112,7 @@ THE_DEFAULT_MENU_FACTORY=fzf ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=dmenu ./style-select.sh
+THE_MASTER_MENU_FACTORY=dmenu ./style-select.sh
 ```
 
 ### rofi
@@ -120,7 +120,7 @@ THE_DEFAULT_MENU_FACTORY=dmenu ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=rofi ./style-select.sh
+THE_MASTER_MENU_FACTORY=rofi ./style-select.sh
 ```
 
 ### jgmenu
@@ -128,7 +128,7 @@ THE_DEFAULT_MENU_FACTORY=rofi ./style-select.sh
 run
 
 ``` sh
-THE_DEFAULT_MENU_FACTORY=jgmenu ./style-select.sh
+THE_MASTER_MENU_FACTORY=jgmenu ./style-select.sh
 ```
 
 
