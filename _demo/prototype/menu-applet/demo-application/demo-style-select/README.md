@@ -2,6 +2,8 @@
 
 # demo-style-select
 
+> [demo-style-select](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-style-select.html#xfce)
+
 
 
 

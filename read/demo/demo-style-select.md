@@ -8,21 +8,15 @@ parent: 範例
 
 # demo-style-select
 
+> [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select)
+
 
 
 
 ## 主題
 
-* [Project](#project)
 * [建構基礎](#建構基礎)
 * [Link](#link)
-
-
-
-
-## Project
-
-* [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select)
 
 
 
