@@ -230,7 +230,61 @@ style_ctrl_set_for_gnome () {
 
 style_ctrl_set_for_cinnamon () {
 
-	echo "TODO: style_ctrl_set_for_cinnamon"
+	echo
+	echo "##"
+	echo "## ## Config: style_ctrl_set_for_cinnamon"
+	echo "##"
+	echo
+
+	local wm_theme="${1}"
+	local gtk_theme="${2}"
+	local icon_theme="${3}"
+	local cursor_theme="${4}"
+	local cursor_size="${5}"
+	local prefer_dark_theme="${6}"
+	local prefer_dark_theme_name="${7}"
+	local prefer_light_theme_name="${8}"
+
+	echo
+	echo "##"
+	echo "## wm_theme: ${wm_theme}"
+	echo "## gtk_theme: ${gtk_theme}"
+	echo "## icon_theme: ${icon_theme}"
+	echo "## cursor_theme: ${cursor_theme}"
+	echo "## cursor_size: ${cursor_size}"
+	echo "## prefer_dark_theme: ${prefer_dark_theme}"
+	echo "## prefer_dark_theme_name: ${prefer_dark_theme_name}"
+	echo "## prefer_light_theme_name: ${prefer_light_theme_name}"
+	echo "##"
+	echo
+
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.wm.preferences theme \"${wm_theme}\""
+	gsettings set org.cinnamon.desktop.wm.preferences theme "${wm_theme}"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.interface gtk-theme \"${gtk_theme}\""
+	gsettings set org.cinnamon.desktop.interface gtk-theme "${gtk_theme}"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.interface icon-theme \"${icon_theme}\""
+	gsettings set org.cinnamon.desktop.interface icon-theme "${icon_theme}"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.interface cursor-theme \"${cursor_theme}\""
+	gsettings set org.cinnamon.desktop.interface cursor-theme "${cursor_theme}"
+
+	echo
+	echo "gsettings set org.cinnamon.desktop.interface cursor-size \"${cursor_size}\""
+	gsettings set org.cinnamon.desktop.interface cursor-size "${cursor_size}"
+
+	echo
+	echo "gsettings set org.cinnamon.theme name \"${wm_theme}\""
+	gsettings set org.cinnamon.theme name "${wm_theme}"
+
+
+	echo
 
 	return 0
 }
