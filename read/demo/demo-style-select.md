@@ -10,10 +10,12 @@ parent: 範例
 
 
 
+
 ## 主題
 
 * [Project](#project)
 * [建構基礎](#建構基礎)
+* [Link](#link)
 
 
 
@@ -39,11 +41,10 @@ parent: 範例
 
 
 
-
-
 ### gnome-shell
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L147-L239)
+* 設定檔 / [Orchis-Dark](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Orchis-Dak/config.sh)
+* [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L147-L239)
 
 ``` sh
 
@@ -75,7 +76,8 @@ dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light "'Orchis-Light
 
 ### xfce
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L349-L404)
+* 設定檔 / [Orchis-Dark](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Orchis-Dak/config.sh)
+* [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L349-L404)
 
 ``` sh
 
@@ -96,9 +98,8 @@ xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeSize" --create --
 
 ### mate
 
-> 設定檔 / [Gruvbox](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Gruvbox/config.sh)
-
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L292-L347)
+* 設定檔 / [Orchis-Dark](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Orchis-Dak/config.sh)
+* [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L292-L347)
 
 ``` sh
 
@@ -119,7 +120,8 @@ gsettings set org.mate.peripherals-mouse cursor-size "24"
 
 ### cinnamon
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L231-L290)
+* 設定檔 / [Orchis-Dark](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Orchis-Dak/config.sh)
+* [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L231-L290)
 
 ``` sh
 
