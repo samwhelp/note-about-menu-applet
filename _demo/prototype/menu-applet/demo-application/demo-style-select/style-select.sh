@@ -5,16 +5,16 @@
 ## https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html
 ##
 
-THE_DEFAULT_DE="${THE_DEFAULT_DE:=gnome}"
+THE_MASTER_DE="${THE_MASTER_DE:=gnome}"
 
 main_desktop_environment () {
-	echo "${THE_DEFAULT_DE}"
+	echo "${THE_MASTER_DE}"
 }
 
-THE_DEFAULT_MENU_FACTORY="${THE_DEFAULT_MENU_FACTORY:=fzf}"
+THE_MASTER_MENU_FACTORY="${THE_MASTER_MENU_FACTORY:=fzf}"
 
 main_menu_factory () {
-	echo "${THE_DEFAULT_MENU_FACTORY}"
+	echo "${THE_MASTER_MENU_FACTORY}"
 }
 
 
