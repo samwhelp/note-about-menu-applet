@@ -32,30 +32,63 @@ parent: 範例
 | 環境 |
 | --- |
 | [gnome-shell](#gnome-shell) |
-| [cinnamon](#cinnamon) |
-| [mate](#mate) |
 | [xfce](#xfce) |
+| [mate](#mate) |
+| [cinnamon](#cinnamon) |
+
+
 
 
 
 
 ### gnome-shell
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L127-L132)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L147-L239)
 
 ``` sh
-## TODO
+
+gsettings set org.gnome.desktop.wm.preferences theme "Orchis-Dark"
+
+gsettings set org.gnome.desktop.interface gtk-theme "Orchis-Dark"
+
+gsettings set org.gnome.desktop.interface icon-theme "Citrus-red-dark"
+
+gsettings set org.gnome.desktop.interface cursor-theme "breeze_cursors"
+
+gsettings set org.gnome.desktop.interface cursor-size "24"
+
+gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
+
+
+
+
+dconf write /org/gnome/shell/extensions/user-theme/name "'Orchis-Dark'"
+
+dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/dark "'Orchis-Dark'"
+
+dconf write /org/gnome/shell/extensions/gtk3-theme-switcher/light "'Orchis-Light'"
+
 ```
 
 
 
 
-### cinnamon
+### xfce
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L134-L139)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L349-L404)
 
 ``` sh
-## TODO
+
+xfconf-query --channel "xfwm4" --property "/general/theme" --create --type "string" --set "Orchis-Dark"
+
+xfconf-query --channel "xsettings" --property "/Net/ThemeName" --create --type "string" --set "Orchis-Dark"
+
+xfconf-query --channel "xsettings" --property "/Net/IconThemeName" --create --type "string" --set "Citrus-red-dark"
+
+xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeName" --create --type "string" --set "breeze_cursors"
+
+xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeSize" --create --type "int" --set "24"
+
 ```
 
 
@@ -68,26 +101,40 @@ parent: 範例
 > [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L292-L347)
 
 ``` sh
+
 gsettings set org.mate.Marco.general theme "Orchis-Dark"
 
 gsettings set org.mate.interface gtk-theme "Orchis-Dark"
 
 gsettings set org.mate.interface icon-theme "Citrus-red-dark"
 
-gsettings set org.mate.peripherals-mouse cursor-theme "Breeze"
+gsettings set org.mate.peripherals-mouse cursor-theme "breeze_cursors"
 
 gsettings set org.mate.peripherals-mouse cursor-size "24"
+
 ```
 
 
 
 
-### xfce
+### cinnamon
 
-> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L190-L195)
+> [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L231-L290)
 
 ``` sh
-## TODO
+
+gsettings set org.cinnamon.desktop.wm.preferences theme "Orchis-Dark"
+
+gsettings set org.cinnamon.desktop.interface gtk-theme "Orchis-Dark"
+
+gsettings set org.cinnamon.desktop.interface icon-theme "Citrus-red-dark"
+
+gsettings set org.cinnamon.desktop.interface cursor-theme "breeze_cursors"
+
+gsettings set org.cinnamon.desktop.interface cursor-size "24"
+
+gsettings set org.cinnamon.theme name "Orchis-Dark"
+
 ```
 
 
