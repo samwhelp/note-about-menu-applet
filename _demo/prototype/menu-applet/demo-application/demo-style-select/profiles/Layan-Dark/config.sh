@@ -1,6 +1,6 @@
 THE_WM_THEME_NAME="Layan-Dark"
 THE_GTK_THEME_NAME="Layan-Dark"
-THE_ICON_THEME_NAME="Citrus-red-dark"
+THE_ICON_THEME_NAME="Canta-Citrus-Dark"
 THE_CURSOR_THEME_NAME="Vimix-cursors"
 THE_CURSOR_SIZE="24"
 THE_PREFER_DARK_THEME="true"
