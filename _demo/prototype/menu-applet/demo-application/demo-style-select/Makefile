@@ -47,3 +47,8 @@ de-mate:
 de-cinnamon:
 	THE_MASTER_DE=cinnamon ./style-select.sh
 .PHONY: de-cinnamon
+
+
+de-budgie:
+	THE_MASTER_DE=budgie ./style-select.sh
+.PHONY: de-budgie

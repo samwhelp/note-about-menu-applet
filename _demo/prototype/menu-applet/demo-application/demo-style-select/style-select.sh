@@ -126,6 +126,7 @@ style_ctrl_set () {
 	local agent
 
 	#agent="gnome"
+	#agent="budgie"
 	#agent="cinnamon"
 	#agent="mate"
 	#agent="xfce"
@@ -221,6 +222,80 @@ style_ctrl_set_for_gnome () {
 	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher dark "${prefer_dark_theme_name}"
 	#gsettings set org.gnome.shell.extensions.gtk3-theme-switcher light "${prefer_light_theme_name}"
 	#gsettings set org.gnome.shell.extensions.user-theme name "${gtk_theme}"
+
+
+	echo
+
+	return 0
+}
+
+style_ctrl_set_for_budgie () {
+
+	echo
+	echo "##"
+	echo "## ## Config: style_ctrl_set_for_budgie"
+	echo "##"
+	echo
+
+	local wm_theme="${1}"
+	local gtk_theme="${2}"
+	local icon_theme="${3}"
+	local cursor_theme="${4}"
+	local cursor_size="${5}"
+	local prefer_dark_theme="${6}"
+	local prefer_dark_theme_name="${7}"
+	local prefer_light_theme_name="${8}"
+
+	local color_scheme="default"
+	local is_dark_theme="false"
+
+	if [ "${prefer_dark_theme}" = "true" ]; then
+		color_scheme="prefer-dark"
+		is_dark_theme="true"
+	fi
+
+	echo
+	echo "##"
+	echo "## wm_theme: ${wm_theme}"
+	echo "## gtk_theme: ${gtk_theme}"
+	echo "## icon_theme: ${icon_theme}"
+	echo "## cursor_theme: ${cursor_theme}"
+	echo "## cursor_size: ${cursor_size}"
+	echo "## prefer_dark_theme: ${prefer_dark_theme}"
+	echo "## prefer_dark_theme_name: ${prefer_dark_theme_name}"
+	echo "## prefer_light_theme_name: ${prefer_light_theme_name}"
+	echo "##"
+	echo
+
+
+	echo
+	echo "gsettings set org.gnome.desktop.wm.preferences theme \"${wm_theme}\""
+	gsettings set org.gnome.desktop.wm.preferences theme "${wm_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface gtk-theme \"${gtk_theme}\""
+	gsettings set org.gnome.desktop.interface gtk-theme "${gtk_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface icon-theme \"${icon_theme}\""
+	gsettings set org.gnome.desktop.interface icon-theme "${icon_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface cursor-theme \"${cursor_theme}\""
+	gsettings set org.gnome.desktop.interface cursor-theme "${cursor_theme}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface cursor-size \"${cursor_size}\""
+	gsettings set org.gnome.desktop.interface cursor-size "${cursor_size}"
+
+	echo
+	echo "gsettings set org.gnome.desktop.interface color-scheme \"${color_scheme}\""
+	gsettings set org.gnome.desktop.interface color-scheme "${color_scheme}"
+
+
+	echo
+	echo "gsettings set com.solus-project.budgie-panel dark-theme \"${dark_theme}\""
+	gsettings set com.solus-project.budgie-panel dark-theme "${is_dark_theme}"
 
 
 	echo
