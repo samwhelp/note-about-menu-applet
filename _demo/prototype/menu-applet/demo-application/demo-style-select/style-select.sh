@@ -294,7 +294,7 @@ style_ctrl_set_for_budgie () {
 
 
 	echo
-	echo "gsettings set com.solus-project.budgie-panel dark-theme \"${dark_theme}\""
+	echo "gsettings set com.solus-project.budgie-panel dark-theme \"${is_dark_theme}\""
 	gsettings set com.solus-project.budgie-panel dark-theme "${is_dark_theme}"
 
 
