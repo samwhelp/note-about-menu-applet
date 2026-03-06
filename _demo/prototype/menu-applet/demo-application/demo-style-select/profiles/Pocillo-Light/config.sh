@@ -1,0 +1,8 @@
+THE_WM_THEME_NAME="Pocillo-light"
+THE_GTK_THEME_NAME="Pocillo-light"
+THE_ICON_THEME_NAME="Pocillo-light"
+THE_CURSOR_THEME_NAME="Bibata-Modern-Classic"
+THE_CURSOR_SIZE="24"
+THE_PREFER_DARK_THEME="false"
+THE_PREFER_DARK_THEME_NAME="Pocillo-dark"
+THE_PREFER_LIGHT_THEME_NAME="Pocillo-light"

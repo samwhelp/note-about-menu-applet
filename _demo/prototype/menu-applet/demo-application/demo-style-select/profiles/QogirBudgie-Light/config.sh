@@ -1,0 +1,8 @@
+THE_WM_THEME_NAME="QogirBudgie-Light"
+THE_GTK_THEME_NAME="QogirBudgie-Light"
+THE_ICON_THEME_NAME="TelaBudgie-light"
+THE_CURSOR_THEME_NAME="Bibata-Modern-Classic"
+THE_CURSOR_SIZE="24"
+THE_PREFER_DARK_THEME="false"
+THE_PREFER_DARK_THEME_NAME="QogirBudgie-Dark"
+THE_PREFER_LIGHT_THEME_NAME="QogirBudgie-Light"
