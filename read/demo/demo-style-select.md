@@ -31,6 +31,7 @@ parent: 範例
 | [xfce](#xfce) |
 | [mate](#mate) |
 | [cinnamon](#cinnamon) |
+| [budgie](#budgie) |
 
 
 
@@ -130,6 +131,30 @@ gsettings set org.cinnamon.desktop.interface cursor-theme "breeze_cursors"
 gsettings set org.cinnamon.desktop.interface cursor-size "24"
 
 gsettings set org.cinnamon.theme name "Orchis-Dark"
+
+```
+
+
+
+
+### budgie
+
+* 設定檔 / [Orchis-Dark](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/profiles/Orchis-Dak/config.sh)
+* [實作程式碼片段](https://github.com/samwhelp/note-about-menu-applet/blob/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select/style-select.sh#L232-L304)
+
+``` sh
+
+gsettings set org.gnome.desktop.wm.preferences theme "Orchis-Dark"
+
+gsettings set org.gnome.desktop.interface gtk-theme "Orchis-Dark"
+
+gsettings set org.gnome.desktop.interface icon-theme "Citrus-red-dark"
+
+gsettings set org.gnome.desktop.interface cursor-theme "breeze_cursors"
+
+gsettings set org.gnome.desktop.interface cursor-size "24"
+
+gsettings set com.solus-project.budgie-panel dark-theme true
 
 ```
 
