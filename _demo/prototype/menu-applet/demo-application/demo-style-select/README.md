@@ -144,6 +144,7 @@ THE_MASTER_MENU_FACTORY=jgmenu ./style-select.sh
 | [make-xfce-style](https://samwhelp.github.io/make-xfce-style/) | [GitHub](https://github.com/samwhelp/make-xfce-style) |
 | [make-mate-style](https://samwhelp.github.io/make-mate-style/) | [GitHub](https://github.com/samwhelp/make-mate-style) |
 | [make-cinnamon-style](https://samwhelp.github.io/make-cinnamon-style/) | [GitHub](https://github.com/samwhelp/make-cinnamon-style) |
+| [make-budgie-style](https://samwhelp.github.io/make-budgie-style/) | [GitHub](https://github.com/samwhelp/make-budgie-style) |
 
 
 | Link | GitHub |
