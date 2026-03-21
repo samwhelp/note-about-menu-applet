@@ -169,3 +169,4 @@ gsettings set com.solus-project.budgie-panel dark-theme true
 | [make-gnome-shell-style](https://samwhelp.github.io/make-gnome-shell-style/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-style) |
 | [make-mate-style](https://samwhelp.github.io/make-mate-style/) | [GitHub](https://github.com/samwhelp/make-mate-style) |
 | [make-cinnamon-style](https://samwhelp.github.io/make-cinnamon-style/) | [GitHub](https://github.com/samwhelp/make-cinnamon-style) |
+| [make-budgie-style](https://samwhelp.github.io/make-budgie-style/) | [GitHub](https://github.com/samwhelp/make-budgie-style) |
